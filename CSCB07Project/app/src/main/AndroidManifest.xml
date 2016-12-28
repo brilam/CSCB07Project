@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs.b07.cscb07project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".frontend.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".frontend.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.FlightSearchPrompt"
+            android:label="@string/title_activity_flight_search_prompt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.FlightSearchResults"
+            android:label="@string/title_activity_flight_search_results"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.ItinerarySearchPrompt"
+            android:label="@string/title_activity_itinerary_search_prompt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.ItinerarySearchResults"
+            android:label="@string/title_activity_itinerary_search_results"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.EditInformation"
+            android:label="@string/title_activity_personal_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.BookedItineraries"
+            android:label="@string/title_activity_booked_itineraries"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.DisplayFlights"
+            android:label="@string/title_activity_display_flights"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.EditFlightInfo"
+            android:label="@string/title_activity_edit_flight_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.EditClientInformation"
+            android:label="@string/title_activity_edit_client_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.UploadFlightInfo"
+            android:label="@string/title_activity_upload_flight_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frontend.UploadUserInfo"
+            android:label="@string/title_activity_upload_user_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

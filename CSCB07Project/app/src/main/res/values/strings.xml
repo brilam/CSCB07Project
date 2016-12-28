@@ -1,0 +1,91 @@
+<resources>
+    <!-- The application name-->
+    <string name="app_name">CSCB07Project</string>
+    <string name="login_activity">Login</string>
+    <!-- The field names in sign up and personal information-->
+    <string name="login_id_field">Username or email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="address">Address</string>
+    <string name="credit_card_number">Credit card number</string>
+    <string name="credit_card_expiry_date">Credit card expiry date in YYYY-MM-DD</string>
+    <!-- The sign and sign up button string -->
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="update">Update</string>
+    <!-- Validity check strings -->
+    <string name="empty_field">This field cannot be left empty.</string>
+    <string name="incorrect_login_id">The login ID is incorrect.</string>
+    <string name="invalid_email">The email either does not contain @ or does not contain at least 7 characters. </string>
+    <string name="short_password">The password is too short.</string>
+    <string name="incorrect_username">The username is incorrect.</string>
+    <string name="incorrect_password">The password is incorrect.</string>
+    <string name="username_not_allowed">Please make sure the username contains at least four characters, and does not include an @.</string>
+    <string name="name_not_allowed">Make sure the name is at least two characters long.</string>
+    <string name="invalid_credit_card">Invalid credit card number. A credit card number must be 16 characters long (no hyphens).</string>
+    <string name="invalid_expiry_date">Invalid expiry date. Date must be in YYYY-MM-DD.</string>
+    <!-- The string for buttons on MenuActivity -->
+    <string name="search_flight">Search for flights</string>
+    <string name="view_booked_itinerary">View booked itinerary</string>
+    <string name="view_edit_personal_info">View/edit personal information</string>
+    <string name="view_edit_client_info">View/edit client information</string>
+    <string name="upload_flight_info">Upload flight information</string>
+    <string name="upload_user_info">Upload user information</string>
+    <!-- Settings which will likely serve no purpose -->
+    <string name="action_settings">Settings</string>
+    <!-- The titles of activities -->
+    <string name="title_activity_menu">Portal</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_flight_search_prompt">Flight Search</string>
+    <string name="title_activity_flight_search_results">Search Results</string>
+    <string name="title_activity_personal_information">Personal Information</string>
+    <string name="title_activity_itinerary_search_prompt">Itinerary search</string>
+    <string name="title_activity_itinerary_search_results">Search itinerary results</string>
+    <string name="title_activity_booked_itineraries">Booked Itineraries</string>
+    <string name="title_activity_display_flights">Flight Information</string>
+    <string name="title_activity_edit_flight_info">Edit Flight Information</string>
+    <string name="title_activity_edit_client_information">Edit Client Information</string>
+    <string name="title_activity_upload_flight_info">Upload Flight Info</string>
+
+    <string name="flight_origin">Flight Origin:</string>
+    <string name="flight_destination">Flight Destination:</string>
+    <string name="flight_departureDate">Flight Departure Date:</string>
+    <string name="itinerary_origin">Itinerary Origin:</string>
+    <string name="itinerary_destination">Itinerary Destination:</string>
+    <string name="itinerary_departureDate">Itinerary Departure Date:</string>
+
+    <string name="sort_by_cost">Sort by cost</string>
+    <string name="sort_by_time">Sort by time</string>
+    <string name="unsorted">Unsorted</string>
+    <string name="search_itineraries">Search Itineraries</string>
+    <string name="book_itinerary">Book selected Itinerary</string>
+    <string name="book_for_user">Login Id to book for (Leave empty to book for yourself):</string>
+    <string name="user_id">Login id of user to change</string>
+
+    <string name="back_menu">"Back to main menu"</string>
+
+    <string name="date_format">YYYY-MM-DD</string>
+    <string name="search_flights">Search flights</string>
+    <string name="search_method_prompt">Method of search</string>
+    <string-array name="itinerary_search_options">
+        <item>@string/unsorted</item>
+        <item>@string/sort_by_cost</item>
+        <item>@string/sort_by_time</item>
+    </string-array>
+
+    <string name="invalid_date">Invalid departure date. Format must be YYYY-MM-DD.</string>
+    <string name="invalid_datetime">Invalid departure date. Format must be YYYY-MM-DD HH:MM.</string>
+    <string name="edit_flights">Edit flight info</string>
+
+    <string name="flight_num">Flight Number</string>
+    <string name="departure">Departure Date YYYY-MM-DD HH:MM</string>
+    <string name="arrival">Arrival Date YYYY-MM-DD HH:MM</string>
+    <string name="airline">Airline</string>
+    <string name="cost">Flight Cost</string>
+    <string name="num_seats">Number of seats</string>
+    <string name="client_id_prompt">"Enter client ID to view"</string>
+    <string name="title_activity_upload_client_info">UploadClientInfo</string>
+    <string name="title_activity_upload_user_info">UploadUserInfo</string>
+</resources>

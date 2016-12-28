@@ -1,0 +1,24 @@
+{
+  "richard@email.com": {
+	"Username": "richardroe",
+    "Password": "123456",
+    "IsAdmin": true,
+    "LastName": "Roe",
+    "FirstName": "Richard",
+    "Address": "21 First Lane Way",
+    "CreditCardNumber": "9999888877776666",
+    "ExpiryDate": "2017-10-01",
+    "BookedItinerary": ["102,488"]
+  },
+  "jane@email.com": {
+	"Username": "111111",
+    "Password": "111111",
+    "IsAdmin": false,
+    "LastName": "Doe",
+    "FirstName": "Jane",
+    "Address": "123 Main Street",
+    "CreditCardNumber": "1111222233334444",
+    "ExpiryDate": "2018-08-24",
+    "BookedItinerary": ["107"]
+  }
+}

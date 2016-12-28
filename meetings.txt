@@ -1,0 +1,63 @@
+Date: 2015-11-23
+
+Current State: Everything from P2 is working.
+Tasks:
+- create an abstract User class. Client and Admin will inherit from User. Move over some user functionality (such as uploading flights and accessing other users' information) to Admin. Create an Admin class.
+- handle login
+- minor change in layover time and handle numSeats
+- we are interested in the extra 5%. We are intending to switch our data storage from JSON to SQLite
+
+Brian: Get started on implementing frontend UI for Android. Look into SQLite and determine if it is realistic solution.
+Vijanthan: Serialize Itinerary, Flight, and User. Changes in layover time.
+Shadman: Make User class. Implements changes in Client, and Admin.
+Fawaz: Add numSeats to flight with getters and setters and isFullyBooked(), book(). Learn how frontend works.
+===========================================================================================
+Date: 2015-11-28
+
+Current State: Everything required for the interview has been implemented. Changes on the p2
+               folder have been migrated to the P3 folder. Authenticating users is complete. 
+			   Differentiating between login of client and admin are done on the backend. 
+			   Adjustments need to be made on frontend. Loading of information upon starting of 
+			   application is complete.
+			   
+Tasks:
+- migrate changes from the P2 folder to P3's backend
+- change content_menu based on if the user is admin or user
+- work on frontend for ItineraryDatabase and FlightDatabase
+- work on view booked itinerary frontend files
+
+Vijanthan: Work on the frontend of FlightDatabase.
+Shadman: Work on the frontend of ItineraryDatabase.
+Brian: Work on adjust content_menu to display different buttons depending on if the user is an admin or client.
+Fawaz: Work on view booked itinerary frontend files.
+==========================================================================================
+Date: 2015-12-01
+
+Current State: Login/sign up works. It writes information to the file and saves it upon closing of the application. Differntiating between user and admin is made after login. Different buttons are shown depending on if the user is a Client or Admin. Working on search itineraries, search flights (mostly complete) and finish view booked itineraries.
+
+Tasks:
+- finish search itineraries, and finish view booked itineraries
+- start and finish editing client's personal info
+- edit flight info
+- booking searched itineraries
+- finish CRC cards
+
+Vijanthan: edit flight info, make flight info search work for what is provided in the file
+Shadman: Work on search itineraries, and booking those searched itineraries. Test based on what is provided in the file.
+Brian: Start and finish editing client's personal info
+Fawaz: Finish view booked itineraries. Rewrite some parts of Itinerary and Flight and improving Java documentation.
+==========================================================================================
+Date: 2015-12-02
+
+Current state: All features of the application work.
+
+Tasks:
+- do CRC cards
+- Java documentation and checkstyle
+- change name of activities
+
+Vijanthan: Look at documentation over all flight-related classes with checkstyle.
+Shadman: Look at documentation over all itinerary-related classes with checkstyle.
+Fawaz: Work on CRC cards.
+Brian: Look at documentation over upload and data-related classes with checkstyle.
+

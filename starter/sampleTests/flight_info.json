@@ -1,0 +1,155 @@
+{
+  "488": {
+    "DepartureDateTime": "2016-09-09 09:09",
+    "ArrivalDateTime": "2016-09-09 13:27",
+    "Airline": "FlightsRUs",
+    "Origin": "Paris",
+    "Destination": "Stockholm",
+    "Price": 300.5,
+    "NumSeats": 8
+  },
+  "214": {
+    "DepartureDateTime": "2016-09-30 16:42",
+    "ArrivalDateTime": "2016-09-30 18:39",
+    "Airline": "Go Airline",
+    "Origin": "Paris",
+    "Destination": "Rome",
+    "Price": 290.0,
+    "NumSeats": 12
+  },
+  "102": {
+    "DepartureDateTime": "2016-09-30 16:37",
+    "ArrivalDateTime": "2016-09-30 17:22",
+    "Airline": "Go Airline",
+    "Origin": "London",
+    "Destination": "Paris",
+    "Price": 290.0,
+    "NumSeats": 32
+  },
+  "489": {
+    "DepartureDateTime": "2016-09-09 09:09",
+    "ArrivalDateTime": "2016-09-09 13:27",
+    "Airline": "FlightsRUs",
+    "Origin": "Chicago",
+    "Destination": "Los Angelos",
+    "Price": 300.99,
+    "NumSeats": 8
+  },
+  "249": {
+    "DepartureDateTime": "2016-09-30 19:22",
+    "ArrivalDateTime": "2016-09-30 22:40",
+    "Airline": "Go Airline",
+    "Origin": "Paris",
+    "Destination": "Rome",
+    "Price": 290.0,
+    "NumSeats": 100
+  },
+  "103": {
+    "DepartureDateTime": "2016-09-30 16:37",
+    "ArrivalDateTime": "2016-09-30 17:22",
+    "Airline": "Go Airline",
+    "Origin": "New York",
+    "Destination": "Chicago",
+    "Price": 290.0,
+    "NumSeats": 10
+  },
+  "107": {
+    "DepartureDateTime": "2016-09-30 16:43",
+    "ArrivalDateTime": "2016-09-30 17:32",
+    "Airline": "FlightsRUs",
+    "Origin": "New York",
+    "Destination": "Chicago",
+    "Price": 290.0,
+    "NumSeats": 10
+  },
+  "108": {
+    "DepartureDateTime": "2016-09-30 00:00",
+    "ArrivalDateTime": "2016-09-30 08:00",
+    "Airline": "FlightsRUs",
+    "Origin": "New York",
+    "Destination": "Mars",
+    "Price": 23.0,
+    "NumSeats": 2
+  },
+  "109": {
+    "DepartureDateTime": "2016-09-30 08:31",
+    "ArrivalDateTime": "2016-09-30 12:42",
+    "Airline": "FlightsRUs",
+    "Origin": "Mars",
+    "Destination": "Chicago",
+    "Price": 18.0,
+    "NumSeats": 1
+  },
+  "299": {
+    "DepartureDateTime": "2016-09-30 16:00",
+    "ArrivalDateTime": "2016-09-30 17:00",
+    "Airline": "FlightsRUs",
+    "Origin": "New York",
+    "Destination": "Chicago",
+    "Price": 290.0,
+    "NumSeats": 20
+  },
+  "300": {
+    "DepartureDateTime": "2016-09-30 17:31",
+    "ArrivalDateTime": "2016-09-30 18:00",
+    "Airline": "FlightsRUs",
+    "Origin": "Chicago",
+    "Destination": "Paris",
+    "Price": 120.0,
+    "NumSeats": 13
+  },
+  "301": {
+    "DepartureDateTime": "2016-09-30 18:29",
+    "ArrivalDateTime": "2016-09-30 19:00",
+    "Airline": "FlightsRUs",
+    "Origin": "Paris",
+    "Destination": "Toronto",
+    "Price": 140.0,
+    "NumSeats": 13
+  },
+  "302": {
+    "DepartureDateTime": "2016-09-30 18:31",
+    "ArrivalDateTime": "2016-09-30 22:00",
+    "Airline": "FlightsRUs",
+    "Origin": "Paris",
+    "Destination": "Toronto",
+    "Price": 195.0,
+    "NumSeats": 13
+  },
+  "303": {
+    "DepartureDateTime": "2016-09-30 18:31",
+    "ArrivalDateTime": "2016-09-30 22:00",
+    "Airline": "FlightsRUs",
+    "Origin": "Paris",
+    "Destination": "Toronto",
+    "Price": 195.0,
+    "NumSeats": 13
+  },
+  "102": {
+    "DepartureDateTime": "2016-09-31 16:37",
+    "ArrivalDateTime": "2016-09-31 17:22",
+    "Airline": "Go Airline",
+    "Origin": "New York",
+    "Destination": "Chicago",
+    "Price": 290.0,
+    "NumSeats": 20
+  },
+  "101": {
+    "DepartureDateTime": "2016-09-30 16:37",
+    "ArrivalDateTime": "2016-09-30 17:22",
+    "Airline": "Go Airline",
+    "Origin": "New York",
+    "Destination": "Chicago",
+    "Price": 290.0,
+    "NumSeats": 0
+  },
+  "490": {
+    "DepartureDateTime": "2016-09-30 22:40",
+    "ArrivalDateTime": "2016-10-01 01:59",
+    "Airline": "Go Airline",
+    "Origin": "London",
+    "Destination": "Rome",
+    "Price": 532.99,
+    "NumSeats": 4
+  }
+}

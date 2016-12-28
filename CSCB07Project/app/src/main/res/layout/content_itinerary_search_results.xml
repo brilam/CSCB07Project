@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/client_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/user_id"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/book_itinerary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="bookSelectedItinerary"
+            android:text="@string/book_itinerary"
+            android:visibility="invisible" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/itinerary_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:listSelector="@color/colourHighlighted" />
+
+</LinearLayout>

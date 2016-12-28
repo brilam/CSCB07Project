@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/client_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="@string/client_id_prompt"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/view_booked_itinerary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="viewBooked"
+        android:text="@string/view_booked_itinerary"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/bookedItinList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light" />
+
+</LinearLayout>

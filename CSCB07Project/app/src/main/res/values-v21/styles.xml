@@ -1,0 +1,18 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="test" parent="android:Theme.Holo">
+        <item name="android:colorPrimary">@color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@color/holo_primary_dark</item>
+        <item name="android:colorBackground">@color/background_holo_dark</item>
+        <item name="android:colorForeground">@color/bright_foreground_holo_dark</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cs.b07.cscb07project.frontend.PersonalInformation"
+    tools:showIn="@layout/activity_edit_flight_info">
+
+    <EditText
+        android:id="@+id/flightNum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/flight_num"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/departureDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flightNum"
+        android:hint="@string/departure"
+        android:inputType="datetime" />
+
+    <EditText
+        android:id="@+id/arrivalDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/departureDate"
+        android:hint="@string/arrival"
+        android:inputType="datetime" />
+
+    <EditText
+        android:id="@+id/airline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrivalDate"
+        android:hint="@string/airline"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/origin_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/airline"
+        android:hint="@string/flight_origin"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/destination_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/origin_field"
+        android:hint="@string/flight_destination"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/destination_field"
+        android:hint="@string/cost"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/numSeats"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cost"
+        android:hint="@string/num_seats"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/numSeats"
+        android:layout_marginTop="27dp"
+        android:background="#d95454"
+        android:onClick="updateInfo"
+        android:text="@string/edit_flights"
+        android:textColor="#fdfcfc" />
+
+
+</RelativeLayout>
+
